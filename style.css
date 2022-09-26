@@ -201,7 +201,7 @@ header {
 .card {
     background-color: var(--DarkBlueTB);
     box-shadow: var(--DarkBlueTB);
-    padding: 10px;
+    padding: 8px;
     margin: 15px;
     border-radius: 5px;
 }
