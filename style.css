@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--White);
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: var(--DarkBlueB);
+}
+
+header {
+    font-family: 'Raleway', sans-serif;
+}
+
+/* for easy acccess to color */
+:root {
+    --DarkBlue:  hsl(217, 28%, 15%);
+    --DarkBlueB:  hsl(218, 28%, 13%);
+    --DarkBlueFB:  hsl(216, 53%, 9%);
+    --DarkBlueTB: hsl(219, 30%, 18%);
+    --Cyan:  hsl(176, 68%, 64%);
+    --Blue:  hsl(198, 60%, 50%);
+    --LightRed: hsl(0, 100%, 63%);
+    --White: hsl(0, 0%, 100%);
+}
+
+/* header section of the page */
+.header-container {
+    padding: 10px;
+}
+
+.links-and-logo-div {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fylo {
+    width: 60px;
+}
+
+.links li {
+    list-style: none;
+    margin: 7px;
+    padding: 10px;
+    display: inline;
+}
+
+.links a {
+    color: var(--White);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* header contents */
+.header-contents {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.header-contents > div {
+    margin-top: 14px;
+}
+
+.header-texts h1 {
+    width: 550px;
+    margin: auto;
+}
+
+.parag-texts p {
+    font-size: 14px;
+    width: 400px;
+    margin: auto;
+}
+
+.link-container {
+    padding: 10px;
+    border: 1px solid var(--Blue);
+    border-radius: 15px;
+    background-color: var(--Blue);
+    width: 200px;
+    margin: auto;
+}
+
+.link-container a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+/* main ~ main container */
+.space {
+    padding: 20px;
+}
+
+.main-container {
+    padding: 10px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main-container > div {
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+#reduce-svg {
+    width: 60px;
+    margin: 10px;
+}
+
+.space section {
+    margin: 10px;
+}
+
+.space section p {
+    margin: auto;
+    width: 70%;
+}
+
+/*another main container */
+.another-main {
+    display: flex;
+    text-align: left;
+    margin-bottom: 5em;
+    gap: 1em;
+}
+
+.another-main-header {
+    padding: 10px;
+    margin: 5px;
+}
+
+.another-main-text {
+    padding: 10px;
+    margin: 10px;
+ /**/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-cont {
+    padding: 10px;
+    margin: 10px;
+}
+
+.another-main-texts {
+    padding: 10px;
+    margin: 5px;
+}
+
+.another-main-texts p {
+    width: 530px;
+}
+
+.link-main {
+    display: flex;
+    margin: 10px;
+    width: 170px;
+    border-bottom: 1px solid var(--Cyan);
+}
+
+.link-main a {
+    color: var(--Cyan);
+    text-decoration: none;
+    padding: 5px;
+}
+
+.center-it {
+    padding: 10px;
+}
+
+/*card div*/
+.container-for-card {
+    width: 80%;
+    margin:10px auto;
+    display: flex;
+}
+
+.card {
+    background-color: var(--DarkBlueTB);
+    box-shadow: var(--DarkBlueTB);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.card-text {
+    padding: 5px;
+}
+
+.tet {
+    width: 300px;
+    font-size: 15px;
+}
+
+.semi-card {
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin: 5px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 40px;
+}
+
+.first {
+    padding: 2px;
+}
+
+.second {
+    font-size: 11px;
+    padding: 2px;
+}
+
+/* Get access */
+.get-access {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--DarkBlue);
+    text-align: center;
+    position: relative;
+    top: 100px;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.get-access-header {
+    margin: 5px;
+    padding: 10px;
+}
+
+.get-access-parag {
+    margin: 5px;
+    padding: 10px;
+}
+
+.input-section {
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+input[type=text] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    height: 40px;
+    margin: 5px;
+}
+
+.get-link {
+    text-decoration: none;
+    color: var(--White);
+    border: 1px solid var(--Blue);
+    padding: 10px;
+    margin: 5px;
+    background-color: var(--Blue);
+    border-radius: 15px;
+    height: 40px;
+}
+
+/* footer */
+.footer {
+    background-color: var(--DarkBlueFB);
+}
+
+.empty-for-nothing {
+    height: 200px;
+}
+
+.footer-logo {
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer-main-container {
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-cont {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    width: 30%;
+    padding: 10px;
+}
+
+.contact {
+    margin: 10px;
+}
+
+.contact > section {
+    margin: 10px 10px;
+}
+
+.lorem {
+    padding: 5px;
+}
+
+.phone, .email {
+    margin: 10px 10px;
+}
+
+.list-list, .second-list {
+    margin: 10px;
+    display: flex;
+}
+
+.list-list ul, .second-list ul {
+    padding: 10px;
+}
+
+.list-list ul li, .second-list ul li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--White);
+    margin-top: 1em;
+}
+
+.socials {
+    padding: 10px;
+    margin: 10px;
+}
+
+.socials img {
+    margin-left: 10px;
+}
+
+
+@media screen and (max-width:375px) {
+    .header-contents {
+        width: 100%;
+    }
+    
+    #intro {
+        width: 330px;
+    }
+    
+    .header-texts h1 {
+        font-size: 20px;
+        width: 280px;
+    }
+    
+    .parag-texts p {
+        font-size: 13px;
+        width: 260px;
+    }
+    
+    /* main ~ main container */
+    .main-container {
+       padding: 10px;
+       text-align: center;
+    }
+
+    .space section > h1 {
+       font-size: 16px;
+    }
+
+    .space section > p {
+        font-size: 13px;
+        width: 280px;
+        margin: auto;
+    }
+
+    /*another main container*/
+    #productive {
+        width: 100%;
+    }
+
+    .another-main {
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+
+    .another-main-header h1 {
+        font-size: 18px;
+        margin: auto;
+        width: 300px;
+    }
+
+    .another-main-texts p {
+        font-size: 14px;
+        margin: auto;
+        width: 300px;
+    }
+
+    .center-it {
+        position: static;
+        margin-top: 2em;
+    }
+
+    /*card div*/
+    .container-for-card {
+        width: 100%;
+        display: block;
+    }
+
+    .tet {
+        width: 325px;
+    }
+
+    /*get access*/
+    .get-access {
+        width: 90%;
+        margin: 5px auto;
+    }
+
+    .get-access-header h1 {
+        font-size: 20px;
+    }
+
+    .get-link {
+        display: block;
+        padding: 10px;
+        margin: 10px auto;
+        width: 250px;
+    }
+
+    input[type=text] {
+        width: 250px;
+        height: 35px;
+    }
+
+    /*footer*/
+    .footer-main-container {
+        display: block;
+        text-align: left;
+    }
+
+    .text-cont {
+        width: 95%;
+    }
+
+    .list-list {
+        display: block;
+        margin-top: 15px;
+    }
+
+    .contact {
+        padding-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .socials {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: -20px;
+    }
+}
+
+@media (max-width:460px) {
+    .main-container > div {
+        flex-basis: 100%;
+    }
+}
