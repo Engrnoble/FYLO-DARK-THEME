@@ -205,11 +205,11 @@ header {
     margin: 15px;
     border-radius: 5px;
 }
-
+/*
 .card-text {
     padding: 5px;
 }
-
+*/
 .tet {
     width: 300px;
     font-size: 15px;
@@ -407,7 +407,7 @@ footer a {
     }
 
     .another-main-header h1 {
-        font-size: 18px;
+        font-size: 17px;
         margin: auto;
         width: 300px;
     }
@@ -430,7 +430,10 @@ footer a {
     }
 
     .tet {
+        /*
         width: 325px;
+        */
+        width: 100%;
     }
 
     /*get access*/
