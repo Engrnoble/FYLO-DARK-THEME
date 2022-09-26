@@ -181,12 +181,12 @@ header {
     text-decoration: none;
     border-bottom: 1px solid var(--Cyan);
 }
-
+/*
 #arrow {
     margin-top: -3px;
     padding: 1px;
 }
-
+*/
 .center-it {
     padding: 10px;
 }
@@ -361,6 +361,17 @@ footer a {
 
 
 @media screen and (max-width:375px) {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .example::-webkit-scrollbar {
+        display: none;
+    }
+  
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .example {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
     .header-contents {
         width: 100%;
     }
