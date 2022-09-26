@@ -170,15 +170,21 @@ header {
 
 .link-main {
     display: flex;
+    align-items: center;
     margin: 10px;
-    width: 170px;
-    border-bottom: 1px solid var(--Cyan);
+    width: 70%;
+    padding: 5px;
 }
 
 .link-main a {
     color: var(--Cyan);
     text-decoration: none;
-    padding: 5px;
+    border-bottom: 1px solid var(--Cyan);
+}
+
+#arrow {
+    margin-top: -3px;
+    padding: 1px;
 }
 
 .center-it {
