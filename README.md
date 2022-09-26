@@ -7,8 +7,8 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 
 ### Links
-- Solution URL: [](https://github.com/Engrnoble/FYLO-DARK-THEME/)
-- Live Site URL: [](https://darkfylotheme.netlify.app/)
+- Solution URL: [](https://github.com/Engrnoble/FYLO-DARK-THEME)
+- Live Site URL: [](https://darkfylotheme.netlify.app)
 
 ### Built with
 - Semantic HTML5 markup
